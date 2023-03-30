@@ -18,7 +18,20 @@
     <body>
         <!--put your initial page content here-->
 		<div id="div1">
+			<p>Q2. It is defining the styles (size, color, opacity,ect.) of the markers but only IF they are a point (not a shape or line), if they are it applies the style to them.
+			</p>
+			<p>Q4. The feature is defining the attribute data we can see on the GeoJSNON file, while layer is all the styling information in the map portion such as color, opacity, radius, ect.
+			</p>
+			<p>Q5. The option.fill goes into different levels to get the information, by first going into the options settings, then finding the value of the setting. The getlatlng simply performs and opperation to produce the latitude and longitude information.
+			</p>
+			<p>Q6. There is a large amount of overlap as the circles have been changed to be massive, and there is no color filling them in amymore, just as we specified. </p>
 		</div>
+			<select class="li-nav" name="mapdropdown" id="mapdropdown" onChange="loadMap(this.value);">
+			<option value="map0" selected="selected" disabled>Load a map</option>
+			<option value='mapa'>Map A</option>
+			<option value='mapb'>Map B</option>
+			</select>
+
 		<div id="mapdiv">
 			
 		</div>
